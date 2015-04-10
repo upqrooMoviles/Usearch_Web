@@ -7,11 +7,11 @@
  */
 error_reporting(0);
 // connect to db
-$link = mysql_connect('localhost', 'root', '');
+$link = mysql_connect('mysql4.000webhost.com', 'a4741074_root', 'Chay1318');
 if (!$link) {
     die('Not connected : ' . mysql_error());
 }
 
-if (! mysql_select_db('usearch') ) {
+if (! mysql_select_db('a4741074_usearch') ) {
     die ('Can\'t use foo : ' . mysql_error());
 }
